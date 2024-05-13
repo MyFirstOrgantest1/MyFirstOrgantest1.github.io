@@ -1,7 +1,50 @@
-<nav>
-    {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: green;"{% endif %}>
-        {{ item.name }}
-      </a>
-    {% endfor %}
-</nav>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+  
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: transparent;
+        color: #fff;
+        padding: 10px 0;
+    }
+  
+    .nav-menu a {
+        text-decoration: none;
+        color: #333;
+        background-color:transparent;
+        padding: 10px 150px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        flex-grow: 1; /* 设置按钮大小均匀分布 */
+    }
+  
+    .nav-menu a:hover {
+        background-color: #fff;
+        border-color: green;
+    }
+  
+    /* 添加媒体查询 */
+    @media (max-width: 1000px) {
+        .nav-menu a {
+            padding: 10px 50px; /* 根据需要调整按钮大小 */
+        }
+    }
+  </style>
+  <body>
+      <nav>
+          <div class="nav-menu">
+              {% for item in site.data.navigation %}
+                  <a href="{{ item.link }}" {% if page.url == item.link %}style="color: green;"{% endif %}>
+                      {{ item.name }}
+                  </a>
+              {% endfor %}
+          </div>
+      </nav>
+  </body>
+  

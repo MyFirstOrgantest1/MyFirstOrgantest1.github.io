@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+     
 <h1 class="text-center">欢迎来到我的博客 
 <h2 class="text-center"><small>Welcome to the blog！</small></h2>
 
@@ -36,6 +37,13 @@ title: Home
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        background-attachment: fixed;
+    }
+    /* 添加媒体查询 */
+    @media screen and (max-width: 768px) {
+        body {
+            background-size: auto;
+        }
     }
 </style>
 
