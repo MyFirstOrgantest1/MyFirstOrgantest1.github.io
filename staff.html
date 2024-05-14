@@ -2,14 +2,45 @@
 layout: default
 title: Staff
 ---
-<h1>Staff</h1>
+
+<body style="background-color: #d1edee;">
+<h1 class="text-center">Staff</h1>
+
 
 <ul>
   {% for author in site.authors %}
-    <li>
-      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
-    </li>
+    {% if forloop.index == 1 %}
+      <!-- 第一位作者左对齐 -->
+      <li class="media">
+        <div class="media-left">
+          <img src="https://img.zcool.cn/community/01f33f5b9686aba8012017eee9f0a4.jpg?x-oss-process=image/format,webp" class="media-object" style="width:100px">
+        </div>
+        <div class="media-body">
+          <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+          <h3>{{ author.position }}</h3>
+          <p>{{ author.content | markdownify }}</p>
+        </div>
+      </li>
+    {% elsif forloop.index == 2 %}
+      <!-- 第二位作者右对齐 -->
+      <li class="media">
+        <div class="media-body">
+          <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+          <h3>{{ author.position }}</h3>
+          <p>{{ author.content | markdownify }}</p>
+        </div>
+        <div class="media-right">
+          <img src="https://img.zcool.cn/community/01d8a05b9686afa80121a0f7364cb6.jpg?x-oss-process=image/format,webp" class="media-object" style="width:100px">
+        </div>
+      </li>
+    {% else %}
+      <!-- 其他作者保持默认居中对齐 -->
+      <li>
+        <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+        <h3>{{ author.position }}</h3>
+        <p>{{ author.content | markdownify }}</p>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
+</body>

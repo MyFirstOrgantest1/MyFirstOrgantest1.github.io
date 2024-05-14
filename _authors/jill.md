@@ -2,6 +2,7 @@
 short_name: jill
 name: Jill Smith
 position: Chief Editor
-layout: Cat
+layout: author
 ---
-Jill is a cute, smart, and endearing cat
+这位猫咪专家，拥有超过10年的专业知识和经验，对猫咪的行为、营养和健康有着深刻的理解和研究。他对猫咪的品种、性格和需求都有独到的见解，并能够为猫咪提供最合适的护理和照顾建议。他不仅具备专业的知识和技能，还拥有无尽的耐心和爱心，能够与猫咪建立起深厚的信任和亲密的关系。他善于观察和分析猫咪的行为，能够准确判断出猫咪的情绪和需求，并采取适当的措施来解决问题。
+
