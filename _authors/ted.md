@@ -2,6 +2,6 @@
 short_name: ted
 name: Ted Doe
 position: Writer
-layout: author
+layout: Dog
 ---
-Ted has been eating fruit since he was baby.
+Ted is a mischievous puppy

@@ -2,6 +2,6 @@
 short_name: jill
 name: Jill Smith
 position: Chief Editor
-layout: author
+layout: Cat
 ---
-Jill is an avid fruit grower based in the south of France.
+Jill is a cute, smart, and endearing cat
