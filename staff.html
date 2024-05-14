@@ -4,6 +4,7 @@ title: Staff
 ---
 
 <body style="background-color: #d1edee;">
+
 <h1 class="text-center">Staff</h1>
 
 
@@ -25,8 +26,8 @@ title: Staff
       <!-- 第二位作者右对齐 -->
       <li class="media">
         <div class="media-body">
-          <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-          <h3>{{ author.position }}</h3>
+          <h2 class="text-right"><a href="{{ author.url }}">{{ author.name }}</a></h2>
+          <h3 class="text-right">{{ author.position }}</h3>
           <p>{{ author.content | markdownify }}</p>
         </div>
         <div class="media-right">
