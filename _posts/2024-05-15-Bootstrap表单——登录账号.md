@@ -39,7 +39,7 @@ author: ted
     background-color: #43A047; /* 绿色按钮悬停 */
   }
 </style>
-</head>
+
 <body>
 
 <div class="container">
