@@ -10,7 +10,7 @@ title: About
       background-size: cover;
       background-position: center;
       width: 100%;
-      height: 500px;
+      height: 300px;
     }
   </style>
   </head>
