@@ -4,16 +4,6 @@ author: ted
 ---
 
 <style>
-  .container {
-    position: relative;
-    /* 设置背景图片 */
-    background-image: url('https://bpic.588ku.com/back_pic/06/03/89/6760d96c01cf4fb.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative; /* 设置相对定位，以便子元素可以绝对定位 */
-    width: 100%;
-    height: 76vh; /* 使用视口高度 */
-  }
   .form-group label {
     color: #4CAF50; /* 绿色文字 */
   }
