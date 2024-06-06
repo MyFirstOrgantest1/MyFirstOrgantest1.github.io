@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-06-06T03:19:42+00:00</updated><id>/feed.xml</id><entry><title type="html">Plantuml</title><link href="/2024/06/06/PlantUML.html" rel="alternate" type="text/html" title="Plantuml" /><published>2024-06-06T00:00:00+00:00</published><updated>2024-06-06T00:00:00+00:00</updated><id>/2024/06/06/PlantUML</id><content type="html" xml:base="/2024/06/06/PlantUML.html"><![CDATA[<p>1、下面是一个泳道图</p>
+<div class="plantuml"><svg contentStyleType='text/css' height='149px' preserveAspectRatio='none' style='width:105px;height:149px;background:#FFFFFF;' version='1.1' viewBox='0 0 105 149' width='105px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><line style='stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;' x1='23' x2='23' y1='36.2969' y2='114.5625'/><line style='stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;' x1='77' x2='77' y1='36.2969' y2='114.5625'/><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='37' x='5' y='5'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='23' x='12' y='24.9951'>Cat</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='37' x='5' y='113.5625'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='23' x='12' y='133.5576'>Cat</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='43' x='56' y='5'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='29' x='63' y='24.9951'>Dog</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='43' x='56' y='113.5625'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='29' x='63' y='133.5576'>Dog</text><polygon fill='#181818' points='65.5,63.4297,75.5,67.4297,65.5,71.4297,69.5,67.4297' style='stroke:#181818;stroke-width:1.0;'/><line style='stroke:#181818;stroke-width:1.0;' x1='23.5' x2='71.5' y1='67.4297' y2='67.4297'/><text fill='#000000' font-family='sans-serif' font-size='13' lengthAdjust='spacing' textLength='30' x='30.5' y='62.3638'>hello</text><polygon fill='#181818' points='34.5,92.5625,24.5,96.5625,34.5,100.5625,30.5,96.5625' style='stroke:#181818;stroke-width:1.0;'/><line style='stroke:#181818;stroke-width:1.0;' x1='28.5' x2='76.5' y1='96.5625' y2='96.5625'/><text fill='#000000' font-family='sans-serif' font-size='13' lengthAdjust='spacing' textLength='11' x='40.5' y='91.4966'>hi</text></g></svg></div><p>2、下面是一个类图</p>
+<div class="plantuml"><svg contentStyleType='text/css' height='206px' preserveAspectRatio='none' style='width:303px;height:206px;background:#FFFFFF;' version='1.1' viewBox='0 0 303 206' width='303px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='261' x='5' y='19'>Dot Executable: /opt/local/bin/dot</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='145' x='5' y='35.2969'>File does not exist</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='291' x='5' y='51.5938'>Cannot find Graphviz. You should try</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='5' x='5' y='67.8906'> </text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='79' x='5' y='84.1875'>@startuml</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='57' x='5' y='100.4844'>testdot</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='72' x='5' y='116.7813'>@enduml</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='5' x='5' y='133.0781'> </text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='17' x='10' y='149.375'>or</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='5' x='5' y='165.6719'> </text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='227' x='5' y='181.9688'>java -jar plantuml.jar -testdot</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='5' x='5' y='198.2656'> </text></g></svg></div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[1、下面是一个泳道图 CatCatDogDoghellohi2、下面是一个类图 ```plantuml @startuml]]></summary></entry><entry><title type="html">Bootstrap动画进度条——如何收养流浪动物</title><link href="/2024/05/15/Bootstrap%E5%8A%A8%E7%94%BB%E8%BF%9B%E5%BA%A6%E6%9D%A1-%E5%A6%82%E4%BD%95%E6%94%B6%E5%85%BB%E6%B5%81%E6%B5%AA%E5%8A%A8%E7%89%A9.html" rel="alternate" type="text/html" title="Bootstrap动画进度条——如何收养流浪动物" /><published>2024-05-15T00:00:00+00:00</published><updated>2024-05-15T00:00:00+00:00</updated><id>/2024/05/15/Bootstrap%E5%8A%A8%E7%94%BB%E8%BF%9B%E5%BA%A6%E6%9D%A1%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E6%94%B6%E5%85%BB%E6%B5%81%E6%B5%AA%E5%8A%A8%E7%89%A9</id><content type="html" xml:base="/2024/05/15/Bootstrap%E5%8A%A8%E7%94%BB%E8%BF%9B%E5%BA%A6%E6%9D%A1-%E5%A6%82%E4%BD%95%E6%94%B6%E5%85%BB%E6%B5%81%E6%B5%AA%E5%8A%A8%E7%89%A9.html"><![CDATA[<div class="container">
+    <h1>收养流浪动物的步骤</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="steps">
+                <div class="step">
+                    <h4>第一步：了解收养流程</h4>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                            <span class="sr-only">20% 完成</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <h4>第二步：选择合适的动物</h4>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                            <span class="sr-only">40% 完成</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <h4>第三步：完成领养申请</h4>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                            <span class="sr-only">60% 完成</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <h4>第四步：完成领养手续</h4>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                            <span class="sr-only">80% 完成</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <h4>第五步：带动物回家</h4>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                            <span class="sr-only">100% 完成</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[收养流浪动物的步骤 第一步：了解收养流程 20% 完成 第二步：选择合适的动物 40% 完成 第三步：完成领养申请 60% 完成 第四步：完成领养手续 80% 完成 第五步：带动物回家 100% 完成]]></summary></entry><entry><title type="html">Bootstrap折叠插件——动物科普</title><link href="/2024/05/15/Bootstrap%E6%8A%98%E5%8F%A0%E6%8F%92%E4%BB%B6-%E5%8A%A8%E7%89%A9%E7%A7%91%E6%99%AE.html" rel="alternate" type="text/html" title="Bootstrap折叠插件——动物科普" /><published>2024-05-15T00:00:00+00:00</published><updated>2024-05-15T00:00:00+00:00</updated><id>/2024/05/15/Bootstrap%E6%8A%98%E5%8F%A0%E6%8F%92%E4%BB%B6%E2%80%94%E2%80%94%E5%8A%A8%E7%89%A9%E7%A7%91%E6%99%AE</id><content type="html" xml:base="/2024/05/15/Bootstrap%E6%8A%98%E5%8F%A0%E6%8F%92%E4%BB%B6-%E5%8A%A8%E7%89%A9%E7%A7%91%E6%99%AE.html"><![CDATA[<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    了解动物的习性
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+                cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
+                vice lomo.
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    动物的饮食
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+                cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
+                vice lomo.
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    动物的栖息地
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+                cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
+                vice lomo.
+            </div>
+        </div>
+    </div>
+</div>
+<h5>(点击进行展开，再次点击我进行折叠)<h1>
+</h1></h5>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[了解动物的习性 Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. 动物的饮食 Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. 动物的栖息地 Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. (点击进行展开，再次点击我进行折叠)]]></summary></entry><entry><title type="html">Bootstrap标签页插件——动物分类</title><link href="/2024/05/15/Bootstrap%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%8F%92%E4%BB%B6-%E5%8A%A8%E7%89%A9%E5%88%86%E7%B1%BB.html" rel="alternate" type="text/html" title="Bootstrap标签页插件——动物分类" /><published>2024-05-15T00:00:00+00:00</published><updated>2024-05-15T00:00:00+00:00</updated><id>/2024/05/15/Bootstrap%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%8F%92%E4%BB%B6%E2%80%94%E2%80%94%E5%8A%A8%E7%89%A9%E5%88%86%E7%B1%BB</id><content type="html" xml:base="/2024/05/15/Bootstrap%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%8F%92%E4%BB%B6-%E5%8A%A8%E7%89%A9%E5%88%86%E7%B1%BB.html"><![CDATA[<style>
+  .nav-tabs .nav-link {
+    background-color: #4CAF50; /* 绿色背景 */
+    color: white; /* 白色文字 */
+  }
+  .nav-tabs .nav-link.active {
+    background-color: #43A047; /* 绿色背景悬停 */
+  }
+</style>
+
+<body>
+
+<ul id="myTab" class="nav nav-tabs">
+	<li class="nav-item active">
+		<a class="nav-link" href="#home" data-toggle="tab">
+			 动物世界
+		</a>
+	</li>
+	<li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" href="#" id="myTabDrop1" data-toggle="dropdown">动物分类
+			<b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+			<li><a class="nav-link" href="#jmeter" tabindex="-1" data-toggle="tab">哺乳动物</a></li>
+			<li><a class="nav-link" href="#ejb" tabindex="-1" data-toggle="tab">鸟类</a></li>
+		</ul>
+	</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+	<div class="tab-pane fade show active" id="home">
+		<p>欢迎来到动物世界！在这里，你可以了解各种动物的生活习性和生态环境。让我们一起探索这个丰富多彩的世界吧！</p>
+	</div>
+	<div class="tab-pane fade" id="jmeter">
+		<p>哺乳动物是一类具有哺乳能力的动物，它们通常具有毛发，以母乳喂养幼崽。常见的哺乳动物包括狗、猫、狮子、老虎等。</p>
+	</div>
+	<div class="tab-pane fade" id="ejb">
+		<p>鸟类是一类具有羽毛和翅膀的动物，它们能够飞行。常见的鸟类包括鸡、鸭、鹰、孔雀等。</p>
+	</div>
+</div>
+
+</body>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Bootstrap表单——登录账号</title><link href="/2024/05/15/Bootstrap%E8%A1%A8%E5%8D%95-%E7%99%BB%E5%BD%95%E8%B4%A6%E5%8F%B7.html" rel="alternate" type="text/html" title="Bootstrap表单——登录账号" /><published>2024-05-15T00:00:00+00:00</published><updated>2024-05-15T00:00:00+00:00</updated><id>/2024/05/15/Bootstrap%E8%A1%A8%E5%8D%95%E2%80%94%E2%80%94%E7%99%BB%E5%BD%95%E8%B4%A6%E5%8F%B7</id><content type="html" xml:base="/2024/05/15/Bootstrap%E8%A1%A8%E5%8D%95-%E7%99%BB%E5%BD%95%E8%B4%A6%E5%8F%B7.html"><![CDATA[<style>
+  .form-group label {
+    color: #4CAF50; /* 绿色文字 */
+  }
+  .form-group input {
+    border: 1px solid #4CAF50; /* 绿色边框 */
+    color: #4CAF50; /* 绿色文字 */
+  }
+  .form-group input:focus {
+    border-color: #4CAF50; /* 绿色边框聚焦 */
+  }
+  .checkbox label input {
+    border: 1px solid #4CAF50; /* 绿色边框 */
+    color: #4CAF50; /* 绿色文字 */
+  }
+  .checkbox label input:focus {
+    border-color: #4CAF50; /* 绿色边框聚焦 */
+  }
+  .btn {
+    background-color: #4CAF50; /* 绿色按钮 */
+    color: white; /* 白色文字 */
+  }
+  .btn:hover {
+    background-color: #43A047; /* 绿色按钮悬停 */
+  }
+</style>
+
+<body>
+
+<div class="container">
+    <h1>欢迎来到动物王国</h1>
+    <h2>登录您的账户</h2>
+    <form class="form-horizontal" role="form" style="position: absolute; bottom: 3; left: 1; right: 1;">
+      <div class="form-group">
+        <label for="firstname" class="col-sm-2 control-label">名字</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="firstname" placeholder="请输入名字" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="lastname" class="col-sm-2 control-label">姓</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="lastname" placeholder="请输入姓" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" />请记住我
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default">登录</button>
+        </div>
+      </div>
+    </form>
+</div>
+
+</body>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Bootstrap代码——如何用代码打印动物图案</title><link href="/2024/05/09/Bootstrap%E4%BB%A3%E7%A0%81-%E5%A6%82%E4%BD%95%E7%94%A8%E4%BB%A3%E7%A0%81%E6%89%93%E5%8D%B0%E5%8A%A8%E7%89%A9%E5%9B%BE%E6%A1%88.html" rel="alternate" type="text/html" title="Bootstrap代码——如何用代码打印动物图案" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E4%BB%A3%E7%A0%81%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E7%94%A8%E4%BB%A3%E7%A0%81%E6%89%93%E5%8D%B0%E5%8A%A8%E7%89%A9%E5%9B%BE%E6%A1%88</id><content type="html" xml:base="/2024/05/09/Bootstrap%E4%BB%A3%E7%A0%81-%E5%A6%82%E4%BD%95%E7%94%A8%E4%BB%A3%E7%A0%81%E6%89%93%E5%8D%B0%E5%8A%A8%E7%89%A9%E5%9B%BE%E6%A1%88.html"><![CDATA[<p>在帖子中，我们将使用JavaScript在页面上动态创建一个猫的ASCII艺术图案。</p>
+<pre>
+function printAnimalPattern() {
+  // ASCII艺术猫图案
+  var cat = `
+  /\_/\  
+ ( o.o ) 
+  &gt; ^ &lt;  
+  `;
+  // 在页面上创建一个元素来显示图案
+  var patternDiv = document.createElement('div');
+  patternDiv.innerHTML = cat;
+  document.body.appendChild(patternDiv);
+}
+</pre>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[在帖子中，我们将使用JavaScript在页面上动态创建一个猫的ASCII艺术图案。 function printAnimalPattern() { // ASCII艺术猫图案 var cat = ` /\_/\ ( o.o ) &gt; ^ &lt; `; // 在页面上创建一个元素来显示图案 var patternDiv = document.createElement('div'); patternDiv.innerHTML = cat; document.body.appendChild(patternDiv); }]]></summary></entry><entry><title type="html">Bootstrap按钮——了解猫科动物</title><link href="/2024/05/09/Bootstrap%E6%8C%89%E9%92%AE-%E4%BA%86%E8%A7%A3%E7%8C%AB%E7%A7%91%E5%8A%A8%E7%89%A9.html" rel="alternate" type="text/html" title="Bootstrap按钮——了解猫科动物" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E6%8C%89%E9%92%AE%E2%80%94%E2%80%94%E4%BA%86%E8%A7%A3%E7%8C%AB%E7%A7%91%E5%8A%A8%E7%89%A9</id><content type="html" xml:base="/2024/05/09/Bootstrap%E6%8C%89%E9%92%AE-%E4%BA%86%E8%A7%A3%E7%8C%AB%E7%A7%91%E5%8A%A8%E7%89%A9.html"><![CDATA[<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>猫科知识介绍</title>
+<style>
+  /* 定义按钮的通用样式 */
+  button {
+    background-color: #f0f0f0; /* 浅灰色背景 */
+    color: #333; /* 深灰色文字 */
+    border: none; /* 移除边框 */
+    padding: 10px 20px; /* 内边距 */
+    cursor: pointer; /* 鼠标指针变为手形 */
+    margin: 5px; /* 按钮之间的间隔 */
+  }
+
+  /* 定义每个按钮的特定颜色 */
+  .general {
+    background-color: #ff9900; /* 橙色背景 */
+  }
+
+  .behavior {
+    background-color: #3399ff; /* 蓝色背景 */
+  }
+
+  .vision {
+    background-color: #99cc00; /* 绿色背景 */
+  }
+
+  .distribution {
+    background-color: #ffcc99; /* 浅橙色背景 */
+  }
+</style>
+<script>
+function displayFelineFacts(category) {
+  var facts = '';
+  switch (category) {
+    case 'general':
+      facts = `
+        <h2>猫科动物概述</h2>
+        <p>猫科动物是食肉目下的一大类哺乳动物，包括家猫、狮子、老虎等。</p>
+      `;
+      break;
+    case 'behavior':
+      facts = `
+        <h2>猫科动物的行为</h2>
+        <p>猫科动物以其敏锐的捕猎本能、优雅的体态和独特的社会行为而著称。</p>
+      `;
+      break;
+    case 'vision':
+      facts = `
+        <h2>猫科动物的视力</h2>
+        <p>猫科动物的视力在夜晚尤其敏锐，它们的眼睛能够适应低光环境。</p>
+      `;
+      break;
+    case 'distribution':
+      facts = `
+        <h2>猫科动物的分布</h2>
+        <p>猫科动物广泛分布于世界各地，从热带雨林到寒冷的北极地区。</p>
+      `;
+      break;
+    default:
+      facts = '<p>请选择一个主题来了解猫科动物的知识。</p>';
+  }
+  // 在页面上创建一个元素来显示知识
+  var factsDiv = document.getElementById('factsDiv');
+  factsDiv.innerHTML = facts;
+}
+</script>
+</head>
+<body>
+
+<p>点击下面的按钮，选择你想要了解的猫科动物知识主题：</p>
+
+<button class="general" onclick="displayFelineFacts('general')">猫科动物概述</button>
+<button class="behavior" onclick="displayFelineFacts('behavior')">猫科动物的行为</button>
+<button class="vision" onclick="displayFelineFacts('vision')">猫科动物的视力</button>
+<button class="distribution" onclick="displayFelineFacts('distribution')">猫科动物的分布</button>
+
+<div id="factsDiv"></div>
+
+</body>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[猫科知识介绍]]></summary></entry><entry><title type="html">Bootstrap排版 引用——介绍猫科动物</title><link href="/2024/05/09/Bootstrap%E6%8E%92%E7%89%88-%E5%BC%95%E7%94%A8-%E4%BB%8B%E7%BB%8D%E7%8C%AB%E7%A7%91%E5%8A%A8%E7%89%A9.html" rel="alternate" type="text/html" title="Bootstrap排版 引用——介绍猫科动物" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E6%8E%92%E7%89%88-%E5%BC%95%E7%94%A8%E2%80%94%E2%80%94%E4%BB%8B%E7%BB%8D%E7%8C%AB%E7%A7%91%E5%8A%A8%E7%89%A9</id><content type="html" xml:base="/2024/05/09/Bootstrap%E6%8E%92%E7%89%88-%E5%BC%95%E7%94%A8-%E4%BB%8B%E7%BB%8D%E7%8C%AB%E7%A7%91%E5%8A%A8%E7%89%A9.html"><![CDATA[<head>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    .background-image {
+      background-image: url('https://cdn.pixabay.com/photo/2017/12/09/21/33/sunset-3008779_1280.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative; /* 设置相对定位，以便子元素可以绝对定位 */
+      width: 100%;
+      height: 100vh; /* 使用视口高度 */
+    }
+
+    .overlay-text {
+      position: absolute; /* 绝对定位，使其位于背景图片上方 */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* 将元素中心点移动到视口中心 */
+      color: white; /* 设置文字颜色为白色 */
+      text-align: center; /* 文字居中显示 */
+      width: 80%; /* 设置宽度，可以根据需要调整 */
+    }
+  </style>
+</head>
+<body>
+  <div class="background-image">
+    <div class="overlay-text">
+      <!-- 默认的引用实例，用于介绍猫科动物 -->
+      <blockquote>
+        <p>
+          猫科动物是食肉目下的一大类哺乳动物，以其敏锐的捕猎本能、优雅的体态和独特的社会行为而著称。这个科包括从小型的家猫到大型的狮子、老虎等。
+        </p>
+      </blockquote>
+
+      <!-- 带有源标题的引用，引用自某个著名的动物学著作 -->
+      <blockquote>
+        <p>
+          猫科动物的视力在夜晚尤其敏锐，它们的耳朵可以精确地定位声音的来源，这些都是它们作为顶级捕食者的优势。
+        </p>
+        <small>出自《动物世界百科全书》<cite title="动物世界百科全书">动物世界百科全书</cite></small>
+      </blockquote>
+
+      <!-- 向右对齐的引用，描述猫科动物的地理分布 -->
+      <blockquote>
+        <p>
+          猫科动物广泛分布于世界各地，从热带雨林到寒冷的北极地区，都有不同种类的猫科动物生存。
+        </p>
+        <small>出自《全球野生动物分布图集》<cite title="全球野生动物分布图集">全球野生动物分布图集</cite></small>
+      </blockquote>
+    </div>
+  </div>
+</body>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Bootstrap条纹表格——介绍宠物猫品种</title><link href="/2024/05/09/Bootstrap%E6%9D%A1%E7%BA%B9%E8%A1%A8%E6%A0%BC-%E4%BB%8B%E7%BB%8D%E5%AE%A0%E7%89%A9%E7%8C%AB%E5%93%81%E7%A7%8D.html" rel="alternate" type="text/html" title="Bootstrap条纹表格——介绍宠物猫品种" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E6%9D%A1%E7%BA%B9%E8%A1%A8%E6%A0%BC%E2%80%94%E2%80%94%E4%BB%8B%E7%BB%8D%E5%AE%A0%E7%89%A9%E7%8C%AB%E5%93%81%E7%A7%8D</id><content type="html" xml:base="/2024/05/09/Bootstrap%E6%9D%A1%E7%BA%B9%E8%A1%A8%E6%A0%BC-%E4%BB%8B%E7%BB%8D%E5%AE%A0%E7%89%A9%E7%8C%AB%E5%93%81%E7%A7%8D.html"><![CDATA[<div class="row">
+  <div class="col-md-4">
+    <img src="https://cdn.pixabay.com/photo/2022/12/12/12/46/cat-7650987_640.jpg" class="img-rounded img-responsive" style="max-width: 500px; height: 200px;" />
+  </div>
+  <div class="col-md-4">
+    <img src="https://cdn.pixabay.com/photo/2017/03/06/09/16/cat-2120915_640.jpg" class="img-circle img-responsive" style="max-width: 500px; height: 200px;" />
+  </div>
+  <div class="col-md-4">
+    <img src="https://cdn.pixabay.com/photo/2017/08/07/09/50/blue-eyes-cat-2602085_1280.jpg" class="img-thumbnail img-responsive" style="max-width: 500px; height: 200px;" />
+  </div>
+</div>
+
+<table class="table table-striped">
+  <caption> </caption>
+  <thead>
+    <tr>
+      <th>品种</th>
+      <th>产地</th>
+      <th>特点</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>缅因猫</td>
+      <td>美国缅因州</td>
+      <td>体型庞大，毛发长而浓密，性格温顺</td>
+    </tr>
+    <tr>
+      <td>暹罗猫</td>
+      <td>泰国</td>
+      <td>体型中等，毛发短，颜色鲜明，性格活泼</td>
+    </tr>
+    <tr>
+      <td>布偶猫</td>
+      <td>美国</td>
+      <td>体型较大，毛发长，颜色多样，性格温顺，肢体柔软</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Bootstrap简介——如何把猫咪装进冰箱里</title><link href="/2024/05/09/Bootstrap%E7%AE%80%E4%BB%8B-%E5%A6%82%E4%BD%95%E6%8A%8A%E7%8C%AB%E5%92%AA%E8%A3%85%E8%BF%9B%E5%86%B0%E7%AE%B1%E9%87%8C.html" rel="alternate" type="text/html" title="Bootstrap简介——如何把猫咪装进冰箱里" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E7%AE%80%E4%BB%8B%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E6%8A%8A%E7%8C%AB%E5%92%AA%E8%A3%85%E8%BF%9B%E5%86%B0%E7%AE%B1%E9%87%8C</id><content type="html" xml:base="/2024/05/09/Bootstrap%E7%AE%80%E4%BB%8B-%E5%A6%82%E4%BD%95%E6%8A%8A%E7%8C%AB%E5%92%AA%E8%A3%85%E8%BF%9B%E5%86%B0%E7%AE%B1%E9%87%8C.html"><![CDATA[<div class="container">
+  <div class="jumbotron" style="background-image: url('https://cdn.pixabay.com/photo/2018/03/31/03/46/kitten-3277268_960_720.png'); background-size: cover; width: 100%; height: 60vh; ">
+    <h1> </h1>
+    <p></p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>轻轻打开冰箱门</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>把猫咪放进去</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3> 
+      <p>啪叽！关上冰箱门</p>
+      <p>（猫跑出去了）</p>
+    </div>
+  </div>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[Column 1 轻轻打开冰箱门 Column 2 把猫咪放进去 Column 3 啪叽！关上冰箱门 （猫跑出去了）]]></summary></entry></feed>

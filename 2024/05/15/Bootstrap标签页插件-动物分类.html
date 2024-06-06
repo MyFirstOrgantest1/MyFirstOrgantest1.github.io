@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap标签页插件——动物分类</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  </head>
+  <body>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+  
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: transparent;
+        color: #fff;
+        padding: 10px 0;
+    }
+  
+    .nav-menu a {
+        text-decoration: none;
+        color: #333;
+        background-color:transparent;
+        padding: 10px 150px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        flex-grow: 1; /* 设置按钮大小均匀分布 */
+        font-weight: bold; /* 加粗文字 */
+    }
+  
+    .nav-menu a:hover {
+        background-color: #fff;
+        border-color: green;
+    }
+  
+    /* 添加媒体查询 */
+    @media (max-width: 1000px) {
+        .nav-menu a {
+            padding: 10px 50px; /* 根据需要调整按钮大小 */
+        }
+    }
+  </style>
+  <body>
+      <nav>
+          <div class="nav-menu">
+              
+                  <a href="/" >
+                      Home
+                  </a>
+              
+                  <a href="/about.html" >
+                      About
+                  </a>
+              
+                  <a href="/blog.html" >
+                      Blog
+                  </a>
+              
+                  <a href="/staff.html" >
+                      Staff
+                  </a>
+              
+          </div>
+      </nav>
+  </body>
+  
+    <h1>Bootstrap标签页插件——动物分类</h1>
+
+<p>
+  15 May 2024
+  
+  
+    - <a href="/authors/ted.html">Ted Doe</a>
+  
+</p>
+
+<style>
+  .nav-tabs .nav-link {
+    background-color: #4CAF50; /* 绿色背景 */
+    color: white; /* 白色文字 */
+  }
+  .nav-tabs .nav-link.active {
+    background-color: #43A047; /* 绿色背景悬停 */
+  }
+</style>
+
+<body>
+
+<ul id="myTab" class="nav nav-tabs">
+	<li class="nav-item active">
+		<a class="nav-link" href="#home" data-toggle="tab">
+			 动物世界
+		</a>
+	</li>
+	<li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" href="#" id="myTabDrop1" data-toggle="dropdown">动物分类
+			<b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+			<li><a class="nav-link" href="#jmeter" tabindex="-1" data-toggle="tab">哺乳动物</a></li>
+			<li><a class="nav-link" href="#ejb" tabindex="-1" data-toggle="tab">鸟类</a></li>
+		</ul>
+	</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+	<div class="tab-pane fade show active" id="home">
+		<p>欢迎来到动物世界！在这里，你可以了解各种动物的生活习性和生态环境。让我们一起探索这个丰富多彩的世界吧！</p>
+	</div>
+	<div class="tab-pane fade" id="jmeter">
+		<p>哺乳动物是一类具有哺乳能力的动物，它们通常具有毛发，以母乳喂养幼崽。常见的哺乳动物包括狗、猫、狮子、老虎等。</p>
+	</div>
+	<div class="tab-pane fade" id="ejb">
+		<p>鸟类是一类具有羽毛和翅膀的动物，它们能够飞行。常见的鸟类包括鸡、鸭、鹰、孔雀等。</p>
+	</div>
+</div>
+
+</body>
+
+  </body>
+</html>

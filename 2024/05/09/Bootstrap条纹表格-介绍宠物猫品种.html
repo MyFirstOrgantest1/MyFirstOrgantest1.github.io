@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap条纹表格——介绍宠物猫品种</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  </head>
+  <body>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+  
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: transparent;
+        color: #fff;
+        padding: 10px 0;
+    }
+  
+    .nav-menu a {
+        text-decoration: none;
+        color: #333;
+        background-color:transparent;
+        padding: 10px 150px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        flex-grow: 1; /* 设置按钮大小均匀分布 */
+        font-weight: bold; /* 加粗文字 */
+    }
+  
+    .nav-menu a:hover {
+        background-color: #fff;
+        border-color: green;
+    }
+  
+    /* 添加媒体查询 */
+    @media (max-width: 1000px) {
+        .nav-menu a {
+            padding: 10px 50px; /* 根据需要调整按钮大小 */
+        }
+    }
+  </style>
+  <body>
+      <nav>
+          <div class="nav-menu">
+              
+                  <a href="/" >
+                      Home
+                  </a>
+              
+                  <a href="/about.html" >
+                      About
+                  </a>
+              
+                  <a href="/blog.html" >
+                      Blog
+                  </a>
+              
+                  <a href="/staff.html" >
+                      Staff
+                  </a>
+              
+          </div>
+      </nav>
+  </body>
+  
+    <h1>Bootstrap条纹表格——介绍宠物猫品种</h1>
+
+<p>
+  09 May 2024
+  
+  
+    - <a href="/authors/jill.html">Jill Smith</a>
+  
+</p>
+
+<div class="row">
+  <div class="col-md-4">
+    <img src="https://cdn.pixabay.com/photo/2022/12/12/12/46/cat-7650987_640.jpg" class="img-rounded img-responsive" style="max-width: 500px; height: 200px;" />
+  </div>
+  <div class="col-md-4">
+    <img src="https://cdn.pixabay.com/photo/2017/03/06/09/16/cat-2120915_640.jpg" class="img-circle img-responsive" style="max-width: 500px; height: 200px;" />
+  </div>
+  <div class="col-md-4">
+    <img src="https://cdn.pixabay.com/photo/2017/08/07/09/50/blue-eyes-cat-2602085_1280.jpg" class="img-thumbnail img-responsive" style="max-width: 500px; height: 200px;" />
+  </div>
+</div>
+
+<table class="table table-striped">
+  <caption> </caption>
+  <thead>
+    <tr>
+      <th>品种</th>
+      <th>产地</th>
+      <th>特点</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>缅因猫</td>
+      <td>美国缅因州</td>
+      <td>体型庞大，毛发长而浓密，性格温顺</td>
+    </tr>
+    <tr>
+      <td>暹罗猫</td>
+      <td>泰国</td>
+      <td>体型中等，毛发短，颜色鲜明，性格活泼</td>
+    </tr>
+    <tr>
+      <td>布偶猫</td>
+      <td>美国</td>
+      <td>体型较大，毛发长，颜色多样，性格温顺，肢体柔软</td>
+    </tr>
+  </tbody>
+</table>
+
+  </body>
+</html>

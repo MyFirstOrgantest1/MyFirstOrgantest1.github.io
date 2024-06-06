@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Plantuml</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  </head>
+  <body>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+  
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: transparent;
+        color: #fff;
+        padding: 10px 0;
+    }
+  
+    .nav-menu a {
+        text-decoration: none;
+        color: #333;
+        background-color:transparent;
+        padding: 10px 150px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        flex-grow: 1; /* 设置按钮大小均匀分布 */
+        font-weight: bold; /* 加粗文字 */
+    }
+  
+    .nav-menu a:hover {
+        background-color: #fff;
+        border-color: green;
+    }
+  
+    /* 添加媒体查询 */
+    @media (max-width: 1000px) {
+        .nav-menu a {
+            padding: 10px 50px; /* 根据需要调整按钮大小 */
+        }
+    }
+  </style>
+  <body>
+      <nav>
+          <div class="nav-menu">
+              
+                  <a href="/" >
+                      Home
+                  </a>
+              
+                  <a href="/about.html" >
+                      About
+                  </a>
+              
+                  <a href="/blog.html" >
+                      Blog
+                  </a>
+              
+                  <a href="/staff.html" >
+                      Staff
+                  </a>
+              
+          </div>
+      </nav>
+  </body>
+  
+    <h1>Plantuml</h1>
+
+<p>
+  06 Jun 2024
+  
+  
+    - <a href="/authors/jill.html">Jill Smith</a>
+  
+</p>
+
+<p>1、下面是一个泳道图</p>
+<div class="plantuml"><svg contentStyleType='text/css' height='149px' preserveAspectRatio='none' style='width:105px;height:149px;background:#FFFFFF;' version='1.1' viewBox='0 0 105 149' width='105px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><line style='stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;' x1='23' x2='23' y1='36.2969' y2='114.5625'/><line style='stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;' x1='77' x2='77' y1='36.2969' y2='114.5625'/><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='37' x='5' y='5'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='23' x='12' y='24.9951'>Cat</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='37' x='5' y='113.5625'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='23' x='12' y='133.5576'>Cat</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='43' x='56' y='5'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='29' x='63' y='24.9951'>Dog</text><rect fill='#E2E2F0' height='30.2969' rx='2.5' ry='2.5' style='stroke:#181818;stroke-width:0.5;' width='43' x='56' y='113.5625'/><text fill='#000000' font-family='sans-serif' font-size='14' lengthAdjust='spacing' textLength='29' x='63' y='133.5576'>Dog</text><polygon fill='#181818' points='65.5,63.4297,75.5,67.4297,65.5,71.4297,69.5,67.4297' style='stroke:#181818;stroke-width:1.0;'/><line style='stroke:#181818;stroke-width:1.0;' x1='23.5' x2='71.5' y1='67.4297' y2='67.4297'/><text fill='#000000' font-family='sans-serif' font-size='13' lengthAdjust='spacing' textLength='30' x='30.5' y='62.3638'>hello</text><polygon fill='#181818' points='34.5,92.5625,24.5,96.5625,34.5,100.5625,30.5,96.5625' style='stroke:#181818;stroke-width:1.0;'/><line style='stroke:#181818;stroke-width:1.0;' x1='28.5' x2='76.5' y1='96.5625' y2='96.5625'/><text fill='#000000' font-family='sans-serif' font-size='13' lengthAdjust='spacing' textLength='11' x='40.5' y='91.4966'>hi</text></g></svg></div><p>2、下面是一个类图</p>
+<div class="plantuml"><svg contentStyleType='text/css' height='206px' preserveAspectRatio='none' style='width:303px;height:206px;background:#FFFFFF;' version='1.1' viewBox='0 0 303 206' width='303px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' zoomAndPan='magnify'><defs/><g><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='261' x='5' y='19'>Dot Executable: /opt/local/bin/dot</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='145' x='5' y='35.2969'>File does not exist</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='291' x='5' y='51.5938'>Cannot find Graphviz. You should try</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='5' x='5' y='67.8906'> </text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='79' x='5' y='84.1875'>@startuml</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='57' x='5' y='100.4844'>testdot</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='72' x='5' y='116.7813'>@enduml</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='5' x='5' y='133.0781'> </text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='17' x='10' y='149.375'>or</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='5' x='5' y='165.6719'> </text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='227' x='5' y='181.9688'>java -jar plantuml.jar -testdot</text><text fill='#33FF02' font-family='sans-serif' font-size='14' font-weight='bold' lengthAdjust='spacing' textLength='5' x='5' y='198.2656'> </text></g></svg></div>
+
+  </body>
+</html>
